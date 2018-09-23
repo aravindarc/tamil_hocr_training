@@ -1,0 +1,17 @@
+#The models are ignored
+Models/*
+#Empty folders cannot be commited so
+!Models/.gitkeep
+
+#The DataBinaries are also ignored
+DataBinaryStorage/*
+#Empty folders cannot be commited so
+!DataBinaryStorage/.gitkeep
+
+#The ResultantStorage is to be ignored
+ImageStorage/ResultantStorage/*
+#Empty folders cannot be commited so
+!ImageStorage/ResultantStorage/.gitkeep
+
+#All build files are to be ignored
+build/
